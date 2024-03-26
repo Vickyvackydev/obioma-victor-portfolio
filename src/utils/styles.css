@@ -1,0 +1,8 @@
+.open {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.close {
+  opacity: 0;
+}

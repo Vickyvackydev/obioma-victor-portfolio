@@ -1,0 +1,125 @@
+@import "../../styles/contants.scss";
+
+.wrapper {
+  overflow: hidden;
+
+  .container {
+    position: relative;
+    z-index: 1;
+
+    .upperElement {
+      @media (max-width: $sm) {
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+        padding-bottom: 0;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding-bottom: 5rem;
+
+      span > span {
+        color: orange;
+      }
+    }
+    .links {
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 2rem 0;
+      align-items: center;
+
+      .email {
+        @media (max-width: $sm) {
+          position: relative;
+          display: none;
+        }
+
+        top: 50%;
+        left: 0;
+        color: orange;
+
+        font-size: 3rem;
+      }
+      .link {
+        color: orange;
+
+        font-size: 3rem;
+      }
+    }
+
+    .lowerElement {
+      @media screen and (max-width: $sm) {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+      @media (max-width: $md) {
+        margin-top: 4rem;
+        gap: 2rem;
+        justify-content: center;
+      }
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      .experience {
+        @media (max-width: $sm) {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        > :nth-child(1),
+        :nth-child(2) {
+          line-height: 25px;
+        }
+      }
+
+      .certificate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          margin-bottom: 1rem;
+          width: 3.5rem;
+        }
+      }
+    }
+
+    .person {
+      @media (max-width: $sm), (max-width: $md) {
+        position: relative;
+        left: 0;
+        background-size: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: bottom;
+      }
+      position: absolute;
+      bottom: -2rem;
+      margin: auto;
+      //   background-image: url("../splash.png");
+      background-repeat: no-repeat;
+      background-size: 30rem;
+      left: 33%;
+
+      img {
+        @media (max-width: $sm) {
+          width: 23rem;
+        }
+        width: 50%;
+        margin-right: 3rem;
+        margin-bottom: -5px;
+      }
+    }
+  }
+}

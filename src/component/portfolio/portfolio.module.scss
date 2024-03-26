@@ -1,0 +1,165 @@
+@import "../../styles/contants.scss";
+
+.wrapper {
+  background: white;
+  overflow: hidden;
+
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+
+    .heading {
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      > .btn:hover {
+        transform: scale(1.1);
+      }
+      > .btn {
+        border: none;
+        padding: 0.2rem 0.5rem;
+        border-radius: 1rem;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 13%);
+        color: orange;
+        cursor: pointer;
+        transition: 1s;
+      }
+      > .btn2:hover {
+        transform: scale(1.1);
+      }
+      > .btn2 {
+        border: none;
+        padding: 0.2rem 0.5rem;
+        border-radius: 1rem;
+        background-color: orange;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 13%);
+        color: white;
+        cursor: pointer;
+        transition: 1s;
+      }
+      > span {
+        @media (max-width: $sm) {
+          display: none;
+        }
+        position: absolute;
+        right: 0;
+        margin-right: 4rem;
+        z-index: 1;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 13%);
+        padding: 0.2rem;
+        border-radius: 0.5rem;
+        font-weight: 400;
+        margin-bottom: -1rem;
+      }
+    }
+
+    .showCase {
+      @media (max-width: $sm) {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-right: 2rem;
+      }
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+
+      gap: 5rem;
+      margin-left: 2rem;
+      .span {
+        margin-left: 1rem;
+      }
+
+      a > img {
+        @media (max-width: $sm) {
+          width: 100%;
+        }
+        border-radius: 20px;
+        max-width: 25rem;
+        transition: 1s ease-in-out;
+        max-height: 18rem;
+        box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+        cursor: pointer;
+      }
+
+      .desc {
+        @media (max-width: $sm) {
+          padding: 0.5rem;
+          overflow-x: hidden;
+          margin-right: 2rem;
+          margin-left: 1rem;
+        }
+        margin-top: 2rem;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        width: fit-content;
+        transform: scale(1.1);
+        padding: 0.5rem;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 13%);
+        transition: 1s ease-in-out;
+
+        .newDesc {
+          @media (max-width: $sm) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .showCase2 {
+    @media (max-width: $sm) {
+      display: flex;
+      flex-direction: column;
+      margin-right: 2rem;
+      margin-top: 1rem;
+    }
+    display: flex;
+
+    gap: 5rem;
+    margin-left: 2rem;
+    .span {
+      margin-left: 1rem;
+    }
+
+    a {
+      margin-top: 0.5rem;
+      > img {
+        @media (max-width: $sm) {
+          width: 100%;
+        }
+        border-radius: 20px;
+        max-width: 25rem;
+        transition: 1s ease-in-out;
+        max-height: 18rem;
+        box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+        cursor: pointer;
+      }
+    }
+
+    .desc {
+      @media (max-width: $sm) {
+        padding: 0.5rem;
+        overflow-x: hidden;
+        margin-right: 2rem;
+        margin-left: 1rem;
+      }
+      margin-top: 2rem;
+      border-radius: 1rem;
+      box-sizing: border-box;
+      width: fit-content;
+      transform: scale(1.1);
+      padding: 0.5rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 13%);
+      transition: 1s;
+
+      .newDesc {
+        @media (max-width: $sm) {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
