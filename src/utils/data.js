@@ -23,26 +23,26 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I design and develop, simple and complex UI/Web Apps, in the lifecycle of frontend development, using the world's most popular tech stacks, converting project ideas to reusable codes, good eye for details, team spirit, meeting up with project agreement. My greatest strength is in what i do",
+  "Aspiring to leverage my expertise in React.js and frontend development to contribute to a dynamic team and drive creation of innovative web solutions. Seeking a challenging position where i can utilize my skills in javascript, Redux Toolkit and modern front-end technoligies to enhance user experiences and support the achievements of organizational goals",
 ];
 
 export const workExp = [
   {
     place: "News Express",
-    tenure: "May 2020 - Till Date",
+    tenure: "May 2022 - May 2023",
     role: "Web Administrstor",
     detail: "Publishing of daily news update",
   },
   {
-    place: "Corporate Projects",
-    tenure: "Aug 2021 - Till Date",
+    place: "Frontend Developer",
+    tenure: "Aug 2022 - Till Date",
     role: "Frontend Development",
     detail:
-      "Partnered with a senior lead in a top tech company, became a mentee, learn new skils, solve complex bugs, implement codes, design complex UI",
+      "Experienced Reactjs Developer with over 3 years of experience delivering high quality applications in my career as a frontend developer till date.",
   },
   {
-    place: "Side GIGs",
-    tenure: "Contract Based",
+    place: "Freelance",
+    tenure: "Contracts",
     role: "Graphic Designer",
     detail:
       "Design beautiful flyers for an investment platform, for brands as well, complimentary cards for business.",
@@ -192,9 +192,9 @@ export const projects = [
     link: "https://task-manager-gamma-rouge.vercel.app",
   },
   {
-    name: " A question web app",
-    img: "./question_time.jpg",
-    desc: ", this is built in Nextjs, Next 13, tailwind css, typescript, and headlessUI, with API integration, requres token use this email to access token email@email.com",
-    link: "https://question-time-inky.vercel.app/",
+    name: "Spottr Admin Dashboard",
+    img: "./spottrImage.jpg",
+    desc: ", this is built in Reactjs and it's best practices, tailwind css, typescript,complex API and payment integration and messaging plus notifications functionalities, still under production.",
+    link: "https://agreeable-meadow-0cace3103.5.azurestaticapps.net/",
   },
 ];

@@ -25,8 +25,8 @@ const hero = () => {
             variants={fadeIn("left", "tween", 0.4, 1)}
             className="secondaryText"
           >
-            I build good and complex web apps <br /> with strong programming
-            expertise.
+            Am a frontend developer <br /> with strong programming expertise. I
+            love what i do 😊
           </motion.span>
         </div>
 
@@ -37,7 +37,7 @@ const hero = () => {
             className={css.experience}
           >
             <>
-              <div className="primaryText">2 +</div>
+              <div className="primaryText">3 +</div>
               <div className="secondaryText">
                 <div>Years</div>
                 <div>Experience</div>
