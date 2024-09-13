@@ -1,26 +1,6 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
-export const projectExperience = [
-  {
-    name: "Frontend Development",
-    projects: 7,
-    icon: HiOutlineDesktopComputer,
-    bg: "#286F6C",
-  },
-  {
-    name: "Corporate Projects",
-    projects: 2,
-    icon: CiMobile1,
-    bg: "#EEC048",
-  },
-  {
-    name: "Graphic Designer",
-    projects: 3,
-    icon: MdWorkspacesOutline,
-    bg: "#F26440",
-  },
-];
 
 export const WhatDoIHelp = [
   "Aspiring to leverage my expertise in React.js and frontend development to contribute to a dynamic team and drive creation of innovative web solutions. Seeking a challenging position where i can utilize my skills in javascript, Redux Toolkit and modern front-end technoligies to enhance user experiences and support the achievements of organizational goals",
@@ -196,5 +176,43 @@ export const projects = [
     img: "./spottrImage.jpg",
     desc: ", this is built in Reactjs and it's best practices, tailwind css, typescript,complex API and payment integration and messaging plus notifications functionalities, still under production.",
     link: "https://agreeable-meadow-0cace3103.5.azurestaticapps.net/",
+  },
+  {
+    name: "A Simple Task Manager",
+    img: "./task-scheduler-image.jpg",
+    desc: ", a project written in Reactjs, tailwind css, typescript,Firebase for the backend and a cron job was written for the functionality to schedule task and execute at a the schedule time.",
+    link: "https://task-schedule-app.vercel.app/",
+  },
+  {
+    name: "A Music Landing Page",
+    img: "./music-app.png",
+    desc: ", a simple landing page written in Reactjs, tailwind css and typescript",
+    link: "https://uniq-music-app.vercel.app/",
+  },
+  {
+    name: "A Simple E-commerce Web App",
+    img: "./shoppy-web.png",
+    desc: ", a NextJs project, tailwind css, typescript,Firebase for the backend with cool functionalities.",
+    link: "https://shoppy-web-orcin.vercel.app/",
+  },
+];
+export const projectExperience = [
+  {
+    name: "Frontend Development",
+    projects: projects.length,
+    icon: HiOutlineDesktopComputer,
+    bg: "#286F6C",
+  },
+  {
+    name: "Corporate Projects",
+    projects: 2,
+    icon: CiMobile1,
+    bg: "#EEC048",
+  },
+  {
+    name: "Graphic Designer",
+    projects: 3,
+    icon: MdWorkspacesOutline,
+    bg: "#F26440",
   },
 ];
