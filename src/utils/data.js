@@ -195,6 +195,12 @@ export const projects = [
     desc: ", a NextJs project, tailwind css, typescript,Firebase for the backend with cool functionalities.",
     link: "https://shoppy-web-orcin.vercel.app/",
   },
+  {
+    name: "An Investment Platform",
+    img: "./investment-app.jpg",
+    desc: ", Union Guard Capital, is an investment platform, built with reactjs + vite and integrated with complex api algorithm from the backend using Golang. Make your onw investment now.",
+    link: "https://unionguardcapital.com/",
+  },
 ];
 export const projectExperience = [
   {
